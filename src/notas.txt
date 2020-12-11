@@ -1,0 +1,42 @@
+
+Callbacks
+
+/* Ventajas */
+
+1) Nos permite garantizar que tenemos una funcion que recibe otra funcion y va a ejecutarse sin problemas
+2) Son universales, corren en cualquier navegador 
+
+/* Desventajas */
+
+1) Se anida demasiado (callbacks hells)
+2) Flujo poco intuitivo
+
+----------------------------------------------------------------------------------------------------------
+
+Promesas
+
+/* Ventajas */
+
+1) Facil enlazables
+2) Nos permite una gran capacidad de trabajar con asincronismo
+
+/* Desventajas */
+
+1) No maneja exepciones sino que maneja un catch al final 
+2) Necesita babel para funcionar en todos los navegadores
+
+----------------------------------------------------------------------------------------------------------
+
+Async
+
+/* Ventajas */
+
+1) uso del try y catch, nospermite trabajar fluidamente
+2) Son mas sencillos de comprender
+
+/* Desventajas */
+
+1) Tenemos que esperar por cada llamado
+2) Necesita babel para funcionar en todos los navegadores
+
+
